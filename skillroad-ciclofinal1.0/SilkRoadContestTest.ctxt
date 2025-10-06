@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=SilkRoadContestTest
+comment0.text=\r\n\ Clase\ de\ pruebas\ unitarias\ para\ la\ clase\ SilkRoadContest.\r\n\ Verifica\ el\ correcto\ funcionamiento\ del\ m\u00E9todo\ solve(),\r\n\ encargado\ de\ calcular\ la\ m\u00E1xima\ utilidad\ diaria.\r\n\ \r\n\ @author\ (Orjuela-Pineda)\r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ testSolveBasicCase()
+comment2.text=\r\n\ Caso\ b\u00E1sico\:\ verifica\ que\ el\ m\u00E9todo\ solve()\ calcule\ correctamente\r\n\ la\ utilidad\ m\u00E1xima\ por\ cada\ d\u00EDa\ con\ valores\ positivos.\r\n
+comment3.params=
+comment3.target=void\ testSolveWithNegativeValues()
+comment3.text=\r\n\ Caso\ con\ valores\ negativos\:\ debe\ seleccionar\ el\ menor\ n\u00FAmero\ negativo\ (m\u00E1s\ cercano\ a\ cero)\r\n\ como\ m\u00E1xima\ utilidad\ de\ cada\ d\u00EDa.\r\n
+comment4.params=
+comment4.target=void\ testSolveEmptyMatrix()
+comment4.text=\r\n\ Caso\ con\ matriz\ vac\u00EDa\:\ debe\ devolver\ un\ arreglo\ vac\u00EDo.\r\n
+comment5.params=
+comment5.target=void\ testSolveNullInput()
+comment5.text=\r\n\ Caso\ con\ entrada\ nula\:\ debe\ devolver\ un\ arreglo\ vac\u00EDo\ sin\ generar\ excepciones.\r\n
+numComments=6

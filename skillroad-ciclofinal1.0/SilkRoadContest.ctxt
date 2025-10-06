@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=SilkRoadContest
+comment0.text=\r\n\ SilkRoadContest\ (actualizada)\r\n\r\n\ Contiene\:\r\n\ \ -\ solve(int[][]\ days)\ \:\ int[]\ \ \ \ ->\ calcula\ m\u00E1ximos\ por\ d\u00EDa\ y\ guarda\ 'days'\ internamente\r\n\ \ -\ simulate(int[][]\ days)\ \:\ void\ \ ->\ simula\ usando\ los\ datos\ pasados\r\n\ \ -\ simulate()\ \:\ void\ \ \ \ \ \ \ \ \ \ \ \ \ \ ->\ simula\ usando\ los\ \u00FAltimos\ datos\ pasados\ a\ solve()\r\n\ \ -\ setSlow(long)\ /\ slow()\ \ \ \ \ \ \ \ \ ->\ control\ de\ velocidad\ (slow()\ es\ atajo\ sin\ argumentos)\r\n\r\n\ Esta\ versi\u00F3n\ es\ compatible\ tanto\ con\ tests\ que\ llamen\ simulate(days)\r\n\ como\ con\ tests\ que\ llamen\ simulate()\ sin\ argumentos\ (suponen\ que\ solve()\ ya\ fue\ invocado).\r\n
+comment1.params=
+comment1.target=SilkRoadContest()
+comment2.params=millis
+comment2.target=void\ setSlow(long)
+comment2.text=Establece\ la\ velocidad\ (ms)\ entre\ pasos\ de\ la\ simulaci\u00F3n
+comment3.params=
+comment3.target=void\ slow()
+comment3.text=Atajo\ pedido\ por\ tests\:\ llama\ a\ setSlow\ con\ un\ valor\ por\ defecto
+comment4.params=days
+comment4.target=int[]\ solve(int[][])
+comment4.text=\r\n\ Requisito\ 14\:\ Calcula\ la\ m\u00E1xima\ utilidad\ diaria.\r\n\ Adem\u00E1s\ guarda\ 'days'\ internamente\ para\ que\ simulate()\ pueda\ usarlo\ si\ se\ invoca\ sin\ args.\r\n\r\n\ @param\ days\ matriz\ days[d][i]\r\n\ @return\ arreglo\ con\ la\ m\u00E1xima\ utilidad\ por\ cada\ d\u00EDa\r\n
+comment5.params=
+comment5.target=void\ simulate()
+comment5.text=\r\n\ Requisito\ 15\:\ Simula\ d\u00EDa\ a\ d\u00EDa\ usando\ los\ datos\ pasados.\r\n\ Esta\ sobrecarga\ usa\ los\ 'lastDays'\ (\u00FAltimos\ pasados\ a\ solve).\r\n
+comment6.params=days
+comment6.target=void\ simulate(int[][])
+comment6.text=\r\n\ Simula\ la\ ejecuci\u00F3n\ d\u00EDa\ a\ d\u00EDa\ mostrando\ en\ consola\ cada\ resultado.\r\n\ Si\ days\ es\ null\ o\ vac\u00EDo\ no\ hace\ nada\ (pero\ no\ lanza\ excepci\u00F3n).\r\n\r\n\ @param\ days\ datos\ para\ simular;\ si\ null\ ->\ se\ imprime\ mensaje\ y\ se\ retorna.\r\n
+numComments=7

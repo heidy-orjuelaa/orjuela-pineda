@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=SilkRoadContestCTest
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ testSimulateRunsWithoutErrors()
+comment2.text=\r\n\ Verifica\ que\ la\ simulaci\u00F3n\ se\ ejecute\ sin\ lanzar\ errores.\r\n\ (Simulaci\u00F3n\ b\u00E1sica\ con\ un\ conjunto\ de\ datos\ peque\u00F1o)\r\n
+comment3.params=
+comment3.target=void\ testSlowAffectsSimulationSpeed()
+comment3.text=\r\n\ Verifica\ que\ al\ llamar\ a\ slow(),\ la\ simulaci\u00F3n\ reduzca\ su\ velocidad.\r\n
+comment4.params=
+comment4.target=void\ testSimulateWithEmptyData()
+comment4.text=\r\n\ Verifica\ que\ simulate()\ pueda\ manejar\ datos\ vac\u00EDos.\r\n
+comment5.params=
+comment5.target=void\ testSimulateWithNullData()
+comment5.text=\r\n\ Verifica\ que\ simulate()\ no\ falle\ con\ datos\ nulos.\r\n
+numComments=6

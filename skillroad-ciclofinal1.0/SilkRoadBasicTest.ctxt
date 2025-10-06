@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SilkRoadBasicTest
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ testPlaceStore()
+comment3.params=
+comment3.target=void\ testPlaceRobot()
+comment4.params=
+comment4.target=void\ testMoveRobot()
+comment5.params=
+comment5.target=void\ testResupplyStores()
+numComments=6
