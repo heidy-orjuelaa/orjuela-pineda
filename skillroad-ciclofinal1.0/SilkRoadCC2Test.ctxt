@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=SilkRoadCC2Test
+comment0.text=\r\n\ Casos\ de\ prueba\ colectivos\ para\ el\ ciclo\ 2\ de\ SilkRoad.\r\n\ Adaptados\ a\ la\ versi\u00F3n\ orientada\ a\ objetos\ (con\ Store[]\ y\ Robot[])\r\n\ Autores\:\ Orjuela\ y\ Pineda\ (OP)\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ accordingOPShouldNotPlaceStoreOutsideBounds()
+comment2.text=\r\n\ (OP)\ No\ debe\ permitir\ colocar\ tiendas\ en\ ubicaciones\ fuera\ de\ la\ ruta.\r\n
+comment3.params=
+comment3.target=void\ accordingOPShouldMoveRobotWithinBounds()
+comment3.text=\r\n\ (OP)\ Debe\ permitir\ mover\ el\ robot\ sin\ salirse\ de\ la\ ruta.\r\n
+comment4.params=
+comment4.target=void\ accordingOPShouldRemoveRobot()
+comment4.text=\r\n\ (OP)\ Al\ eliminar\ un\ robot\ debe\ desaparecer\ de\ la\ lista.\r\n
+comment5.params=
+comment5.target=void\ accordingOPShouldRebootSystem()
+comment5.text=\r\n\ (OP)\ Al\ reiniciar\ debe\ limpiar\ completamente\ las\ tiendas\ y\ robots.\r\n
+comment6.params=
+comment6.target=void\ accordingOPShouldResupplyAllStores()
+comment6.text=\r\n\ (OP)\ El\ reabastecimiento\ debe\ restaurar\ el\ valor\ inicial\ de\ todas\ las\ tiendas.\r\n
+comment7.params=
+comment7.target=void\ accordingOPShouldNotAllowDuplicateRobots()
+comment7.text=\r\n\ (OP)\ No\ debe\ permitir\ colocar\ dos\ robots\ en\ la\ misma\ ubicaci\u00F3n.\r\n
+numComments=8
